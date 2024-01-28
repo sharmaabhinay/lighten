@@ -1,0 +1,74 @@
+.productsParent{
+    /* width: ; */
+    height: auto;
+    background: url('https://themewagon.github.io/lighten/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.productListContainer{
+    height: auto;
+    background-color: rgba(254, 254, 254, 0.67);
+    box-shadow: #00000040 0px 0px 19px 0px;
+}
+.productListParent{
+    width: 80%;
+    gap: px;
+    
+}
+.PDataContainer{
+    width: 17rem;
+    background-color: rgb(210, 209, 209);
+}
+.PDataContainer:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.carousel-item img{
+    width: 149px;
+}
+.carouselContentParent{
+    height: auto;
+    width: 80%;
+}
+.carouselContentParent h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.carouselMain{
+    background-color:rgba(254, 254, 254, 0.67);;
+
+}
+.clientPara{
+    margin: 1.5rem 0px;
+    font-size: 1.2rem;
+}
+.abhinay:first-child{
+    font-size: 2rem;
+}
+@media screen and (max-width:380px) {
+    .carouselContentParent h1{
+        font-size: 2rem;
+    }
+    .getQuoteContainer{
+        width: 90%;
+    }
+    
+}
+.footerParent p{
+    font-size: 1.2rem;
+}
+.footerParent ul{
+    list-style: none;
+    text-align: start;
+    font-size: 1.2rem;
+    position: relative;
+    left: -2rem;
+}
+.footerParent a{
+    transition: ease all .5s;
+}
+.footerParent a:hover{
+    color: orange;
+}

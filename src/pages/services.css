@@ -25,15 +25,12 @@
     background-color: orange;
 }
 .aboutContainer{
-    height: 12rem;
+    /* height: 12rem; */
 }
 .aPContainer p{
     font-size: 1.1rem;
 }
-.shadowMic{
 
-
-}
 .cardContainer{
     gap: 2.5rem;
     width: 22rem;
@@ -47,11 +44,19 @@
     height: 3rem;
     padding: 8px 1rem;
     margin: 1rem 0px;
+
 }
-.formC div input{
-    /* width: 32rem; */
+.formC .trouble{
+    width: 98%;
 }
+
 .formC textarea{
     padding: 3rem 1rem;
     outline: none;
+}
+@media screen and (max-width:380px) {
+    .formC .trouble{
+        width: 100%;
+    }
+    
 }

@@ -18,7 +18,7 @@ const Contact = () => {
   const submitData = async (e) => {
     e.preventDefault();
     const{fullname,email,phone,message} = userInput;
-    const res = await fetch("https://lightenproject-c644d-default-rtdb.firebaseio.com/lighteData.json",{
+    const res = await fetch("https://lightcartdata-default-rtdb.firebaseio.com/lighteData.json",{
       method : "POST",
       headers : {
         "Content-Type":"application/json"

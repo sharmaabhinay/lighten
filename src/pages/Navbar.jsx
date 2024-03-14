@@ -1,9 +1,7 @@
 import React from 'react';
 import './navbar.css';
-import { Router,Routes,Route } from 'react-router-dom';
-import About from './About/About';
 import { Link } from 'react-router-dom';
-import Hero from './Hero';
+
 
 const Navbar = () => {
   return (
@@ -24,13 +22,12 @@ const Navbar = () => {
       {/* navbar start */}
       <nav className="navbar mainNavContainer py-4">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://github.com/sharmaabhinay">
             <img src="https://themewagon.github.io/lighten/images/logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top logoImg"/>
             
           </a>
           <nav className="navbar navbar-expand-lg col-lg-9 d-lg-flex">
             <div className="container-fluid">
-              {/* <a className="navbar-brand" href="#">Navbar</a> */}
               <div className=' w-100 d-md-none container-fluid  burgerMenu'>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon text-white"></span>

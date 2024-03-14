@@ -51,7 +51,7 @@ const Navbar = () => {
                     <Link to="/Contact" className='nav-link text-dark '>CONTACT</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-dark" href="#">SIGNUP</a>
+                  <Link to="/Contact" className='nav-link text-dark '>SIGNUP</Link>
                   </li>
                 </ul>
                 {/* <span className="navbar-text">
